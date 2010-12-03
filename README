@@ -1,0 +1,6 @@
+This is a simple web app to create git patch files.
+
+The location of the folder containing the git repositories is configured in config.yml.
+
+Going to the web app will give you the option to select a git repository, and a commit from with to create a patch file from.
+The patch created will be a patch from the given commit to HEAD.

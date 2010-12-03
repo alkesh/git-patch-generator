@@ -1,0 +1,14 @@
+<html>
+  <head><title>Git Patch Generator</title></head>
+  <body>
+    <form action="/patch">
+      <select name="repository">
+        <% @repositories.each do |repository| %>
+          <option value="<%= repository %>"><%= repository %></option>
+        <% end %>
+      </select>
+      <input type="text" name="commit"/>
+      <input type="submit"/>
+    </form>
+  </body>
+</html>
